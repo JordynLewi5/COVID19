@@ -1,4 +1,4 @@
-me: Codacy Analysis CLI
+name: Codacy Analysis CLI
 
 on: ["push"]
 
@@ -12,4 +12,3 @@ jobs:
 
       - name: Run Codacy Analysis CLI
         uses: codacy/codacy-analysis-cli-action@master
-
